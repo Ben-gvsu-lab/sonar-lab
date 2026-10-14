@@ -19,6 +19,11 @@ def main():
     nums = [4, 8, 15, 16, 23, 42]
     print("Average:", calculate_average(nums))
     print("Division:", divide(10, 0))
- 
+
+def multiply(a,b):
+    result=a*b
+    unused_var = 99
+    return result
+
 if __name__ == "__main__":
     main()
